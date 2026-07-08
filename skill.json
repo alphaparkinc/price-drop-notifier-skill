@@ -1,0 +1,40 @@
+{
+  "name": "price-drop-notifier-skill",
+  "version": "1.0.0",
+  "description": "Monitor and flag price reductions on products, generating personalized alert templates for subscribed customers.",
+  "author": "alphaparkinc",
+  "category": "marketing",
+  "tags": [
+    "price-drop",
+    "notifications",
+    "alerts",
+    "conversions",
+    "marketing"
+  ],
+  "inputs": {
+    "original_price": {
+      "type": "number",
+      "description": "Original base price of the item."
+    },
+    "new_price": {
+      "type": "number",
+      "description": "New updated price of the item."
+    },
+    "subscribers": {
+      "type": "array",
+      "description": "List of user profile data: [{email, name}]."
+    }
+  },
+  "outputs": {
+    "drop_percentage": {
+      "type": "number",
+      "description": "Percentage price reduction."
+    },
+    "notifications": {
+      "type": "array",
+      "description": "Generated notification payload logs."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
