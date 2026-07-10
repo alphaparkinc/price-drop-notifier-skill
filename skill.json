@@ -1,5 +1,5 @@
 {
-  "name": "price-drop-notifier-skill",
+  "name": "genpark-price-drop-notifier-skill",
   "version": "1.0.0",
   "description": "GenPark AI Agent Skill - Monitor and flag price reductions on products, generating personalized alert templates for subscribed customers.",
   "author": "genpark",
