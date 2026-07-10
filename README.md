@@ -1,4 +1,4 @@
-# price-drop-notifier-skill
+# genpark-price-drop-notifier-skill
 
 > **GenPark AI Agent Skill** -- Price drop watcher and notifier.
 
